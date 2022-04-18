@@ -1,4 +1,5 @@
 def selectSort(self, nums: List[int]) -> List[int]:
+
 	length = len(nums)
 	for i in range(length):
 		minIndex = i
