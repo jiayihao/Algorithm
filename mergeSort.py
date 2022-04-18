@@ -7,6 +7,7 @@ def mergeSort(self, nums: List[int], left: int, right: int) -> None:
 	self.mergeSortedArray(nums, left, mid, right)
 
 def mergeSortedArray(self, nums: List[int], left: int, mid: int, right: int) -> None:
+	
 	tmp = []
 	# a and b are two walkers/pointers
 	a, b = left, mid + 1
@@ -22,3 +23,4 @@ def mergeSortedArray(self, nums: List[int], left: int, mid: int, right: int) -> 
 	else:
 		tmp.extend(nums[b:right + 1])
 	nums[left:right + 1] = tmp.copy()
+	
