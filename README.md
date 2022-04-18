@@ -1,2 +1,2 @@
 # Algorithm
-Learn Algorithm with Python
+Archived the memo when learning Algorithm with Python.
